@@ -54,7 +54,7 @@ Ember.Widgets.SelectOptionView = Ember.ListItemView.extend
 
 Ember.Widgets.SelectComponent =
 Ember.Component.extend Ember.Widgets.BodyEventListener,
-  templateName:       'select'
+  templateName:       'multi-select'
   classNames:         'ember-select'
   attributeBindings: ['tabindex']
   classNameBindings: ['showDropdown:open']
